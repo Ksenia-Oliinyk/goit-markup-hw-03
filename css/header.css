@@ -1,13 +1,35 @@
+.header {
+  padding: 24px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   color: #2e2f42;
 }
+.nav {
+  margin-right: auto;
+  margin-left: 76px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
 .nav-item {
   font-weight: 500;
+  height: 72px;
 }
 .nav-link {
   color: #2e2f42;
 }
 .address-list {
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
 }
 .nav-link:hover,
 .nav-link:focus {
