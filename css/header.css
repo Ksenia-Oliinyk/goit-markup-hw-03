@@ -1,0 +1,19 @@
+.header-logo {
+  color: #2e2f42;
+}
+.nav-item {
+  font-weight: 500;
+}
+.nav-link {
+  color: #2e2f42;
+}
+.address-list {
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
