@@ -68,8 +68,11 @@ img {
   text-transform: uppercase;
 }
 .section {
+  padding: 120px 0;
 }
 .section-title {
+  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -90,6 +93,12 @@ button:focus {
 }
 
 .btn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 16px 32px;
+  height: 56px;
+
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;

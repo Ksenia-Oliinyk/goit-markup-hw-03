@@ -16,20 +16,22 @@
 }
 .nav-list {
   display: flex;
+  align-items: center;
+
   gap: 40px;
 }
 .nav-item {
   font-weight: 500;
-  height: 72px;
 }
 .nav-link {
+  display: block;
   color: #2e2f42;
 }
 .address-list {
   display: flex;
-  gap: 40px;
-
   align-items: center;
+
+  gap: 40px;
 }
 .nav-link:hover,
 .nav-link:focus {
